@@ -1,0 +1,70 @@
+h3 {
+    float: left;
+    margin: 40px 0;
+}
+.books {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.books th, .books td{
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+}
+.books button{
+    background: none;
+    border: none;
+}
+
+.add_book {
+    display: none;
+    width: 430px;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+}
+.add_book label{
+    width: 70px;
+    text-align: right;
+}
+.form-group {
+    overflow: hidden;
+}
+.form-group label{
+    float: left;
+    line-height: 34px;
+    width: 80px;
+    font-size: 12px;
+    text-align: right;
+}
+.form-group input {
+    float: left;
+    width: 30%;
+    font-size: 10px;
+}
+.submit_box {
+    margin-left: 180px;
+    float: left;
+}
+.submit {
+    width: 80px;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    color: #ffffff;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 10px;
+    margin:0 auto;
+}
+.submit:hover, .submit:active:hover, .submit.active:hover, .open > .dropdown-toggle.submit:hover, .submit:active:focus, .submit.active:focus, .open > .dropdown-toggle.submit:focus, .submit:active.focus, .submit.active.focus, .open > .dropdown-toggle.submit.focus{
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.wrap {
+    text-align: center;
+}
+.footer {
+    display: none;
+}
