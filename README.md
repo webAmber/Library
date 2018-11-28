@@ -36,7 +36,7 @@ features to your application.
 
 访问路径
 -------------------
-http://localhost:8080/library/index
+http://localhost:8888/library/index?r=library/index
 
 
 Book 文件夹下为Gii自动生成的curd
