@@ -46,10 +46,10 @@ class LibraryController extends Controller
     }
 
     public function actionDelete($id)
-    {   
+    {
         $this->findModel($id)->delete();
         return $this->redirect(['library/index']);
-        
+
     }
 
     protected function findModel($id)

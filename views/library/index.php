@@ -38,13 +38,10 @@ use yii\widgets\ActiveForm;
             'method' => 'post'
           ]
         ]) ?>
-        <!-- <button class="del"></button> -->
         </td>
       </tr>
     <?php endforeach; ?>
   </tbody>
 </table>
-
-</div>
 
 <?= LinkPager::widget(['pagination' => $pagination]) ?>
