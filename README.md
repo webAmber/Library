@@ -34,13 +34,7 @@ features to your application.
 
 
 
-访问路径
+项目介绍
 -------------------
-http://localhost:8888/library/index?r=library/index
-
-
-Book 文件夹下为Gii自动生成的curd
-
--------------------
-
-Library 为正式项目地址
+技术栈： Swig + NodeJS + YII(PHP) + MYSQL
+此项目为深入理解 MVC 思想以及前后端分离的学习框架，目前接口部分已完结，还剩 Swig 模板的页面优化部分待完成。
